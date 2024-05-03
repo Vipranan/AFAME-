@@ -1,0 +1,57 @@
+/* Styling for navigation bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    height: 35px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    margin-top: 8px;
+}
+
+/* Styling for search bar */
+#search-bar {
+    display: flex;
+    width: 35%;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+    height: 40px;
+}
+
+#search-bar img {
+    margin-top: 7px;
+}
+
+input[type="text"] {
+    width: 80%;
+    border: none;
+    padding: 0;
+    height: 100%;
+}
+
+/* Styling for buttons */
+button {
+    border-radius: 3px;
+    height: 100%;
+    padding: 5px 12px;
+    background-color: #4C87E1;
+    color: white;
+    border: none;
+}
+
+/* Styling for language options */
+#language-options {
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
